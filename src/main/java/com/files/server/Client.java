@@ -78,6 +78,9 @@ public class Client {
                             size -= bytesRead;
                         }
 
+                    } else if ("error".equalsIgnoreCase(input)) {
+                        String message = in.readUTF();
+                        System.out.println(message);
                     } else {
                         System.out.println(input);
                     }
