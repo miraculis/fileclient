@@ -1,4 +1,4 @@
-package com.files.server;
+package com.files.client;
 
 import java.io.*;
 import java.net.Socket;
