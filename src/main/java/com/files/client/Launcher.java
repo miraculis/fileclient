@@ -1,4 +1,6 @@
-package com.files.server;
+package com.files.client;
+
+import com.files.client.Client;
 
 import java.io.File;
 
